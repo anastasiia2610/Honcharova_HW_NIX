@@ -1,0 +1,7 @@
+div{
+    width: 300px;
+    height: 200px;
+    background-color: #000;
+    background-image: url(../images/W3C.jpeg);
+    background-size: 25%;
+}

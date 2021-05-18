@@ -1,0 +1,51 @@
+body{
+    background-image: url(../images/image.jpg);
+}
+
+.text {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+}
+
+.text_hex {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+    color: #0c54c7;
+}
+
+.text_color-name{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+    color: tomato;
+}
+
+.text_rgb {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+    color: rgb(92, 12, 196);
+}
+
+.text_hsl{
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+    color: hsl(127, 87%, 48%);
+}
+
+.text_rgba {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+    color: rgba(219, 32, 11, 0.7);
+}
+
+.text_hsla {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1em;
+    color: hsla(30, 82%, 48%, 0.8);
+}

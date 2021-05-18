@@ -1,0 +1,12 @@
+p{
+    word-spacing: 20px;
+}
+
+span:first-child {
+    letter-spacing: 5px;
+}
+
+span:nth-child(2) {
+    text-shadow: 5px 10px 2px black;
+
+}
