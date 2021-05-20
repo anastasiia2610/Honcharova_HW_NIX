@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+}
+
+.element{
+    position:relative;   
+}
+
+.block{
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    padding:5px;
+    display:none;
+}
+.element:hover .block{
+    display:block;
+    width: 100px;
+    height: 50px;
+    padding-left: 40px;
+    background-color: red;
+}

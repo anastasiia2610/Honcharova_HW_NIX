@@ -1,0 +1,44 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+div {
+    color: #fff;
+}
+
+.red {
+    width: 30%;
+    float: left;
+}
+
+.green {
+    width: 70%;
+    float: right;
+}
+
+.blue {
+    width: 60%;
+    float: right;
+}
+
+.black {
+    width: 40%;
+    float: left;
+}
+
+.pink {
+    width: 33.3%;
+    float: right;
+}
+
+.light-blue {
+    width: 33.3%;
+    float: left;
+}
+
+.yellow {
+    width: 33.3%;
+    float: left;
+}

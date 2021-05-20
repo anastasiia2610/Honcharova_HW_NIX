@@ -1,0 +1,12 @@
+div {
+    border: 1px solid #000;
+    width: 15%;
+}
+
+div:nth-child(2n) {
+    float: left;
+}
+
+div:nth-child(2n+1) {
+    float: right;
+}

@@ -1,0 +1,29 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.main {
+    height: 55px;
+}
+
+.first {
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.second {
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    float: right;
+}
+
+.third {
+    width: 33.3%;
+    height: 100%;
+    float: right;
+}

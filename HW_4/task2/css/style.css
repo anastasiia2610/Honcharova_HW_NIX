@@ -1,0 +1,28 @@
+.clearfix::after { 
+    content: ""; 
+    clear: both; 
+    display: block; 
+  }
+
+div:first-child {
+    width: 10%;
+    float: right;
+    background-color: green;
+}
+
+div:nth-child(2) {
+    width: 90%;
+    background-color: red;
+}
+
+div:nth-child(3) {
+    width: 10%;
+    float: left;
+    background-color: green;
+}
+
+div:last-child {
+    width: 90%;
+    float: right;
+    background-color: red;
+}
