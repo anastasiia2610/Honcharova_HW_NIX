@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.flex-item {
+    width: 100px;
+    text-align: center;
+}
+
+.flex-item:first-child {
+    align-self: flex-start;
+}
+
+.flex-item:nth-child(2) {
+    align-self: center;
+}
+
+.flex-item:nth-child(3) {
+    width: 99%;
+    text-align: left;
+
+}
+
+.flex-item:nth-child(4) {
+    align-self: center;
+}
+
+.flex-item:nth-child(5) {
+    align-self: flex-end;
+}
