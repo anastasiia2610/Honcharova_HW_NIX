@@ -1,0 +1,32 @@
+.header{
+    background-color: #fff;
+
+    &__inner{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &__logo{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 48px;
+        color: #59ab6e;
+        text-decoration: none;
+    }
+
+    &__link{
+        font-size: 18px;
+        color: #212934;
+        text-decoration: none;
+        transition: all .3s;
+        font-weight: 300;
+
+        &:hover{
+            color: #69bb7e;
+        }
+    }
+}

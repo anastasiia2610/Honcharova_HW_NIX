@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+.header {
+  background-color: #fff; }
+  .header__inner {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+  .header__logo {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 48px;
+    color: #59ab6e;
+    text-decoration: none; }
+  .header__link {
+    font-size: 18px;
+    color: #212934;
+    text-decoration: none;
+    transition: all .3s;
+    font-weight: 300; }
+    .header__link:hover {
+      color: #69bb7e; }
+
+.banner {
+  background-color: #efefef; }
+  .banner__inner {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 40px; }
+  .banner-text__wrapper {
+    width: 50%; }
+  .banner__title {
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: 200; }
+  .banner__text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5; }
+  .banner-image__wrapper {
+    width: 50%; }
+
+.category {
+  text-align: center; }
+  .category__inner {
+    padding: 100px 20px; }
+  .category__title__wrapper {
+    width: 50%;
+    margin: 0 auto; }
+  .category__title {
+    padding: 20px 0;
+    font-size: 48px;
+    font-weight: 200; }
+  .category__subtitle {
+    padding: 10px 0;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300; }
+  .category_row {
+    margin: 50px 0; }
+  .category_row__wrapper {
+    width: 75%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center; }
+  .category_row__item {
+    width: 25%;
+    text-align: center; }
+  .category_row__item__title {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 20px; }
+  .category_row__item__button {
+    display: inline-block;
+    background-color: #59ab6e;
+    border-radius: 3px;
+    border: 1px solid #56ae6c;
+    padding: 10px 15px;
+    margin: 30px 0;
+    color: #fff;
+    transition: all .3s; }
+    .category_row__item__button:hover {
+      background-color: #fff;
+      border-radius: 3px;
+      border: 1px solid #56ae6c;
+      padding: 10px 15px;
+      color: #59ab6e; }

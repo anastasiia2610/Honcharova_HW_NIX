@@ -1,0 +1,29 @@
+.banner {
+    background-color: #efefef;
+
+    &__inner{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 40px;
+    }
+
+    &-text__wrapper {
+        width: 50%;
+    }
+
+    &__title{
+        padding: 20px 0;
+        font-size: 48px;
+        font-weight: 200;
+    }
+
+    &__text{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.5;
+    }
+
+    &-image__wrapper {
+        width: 50%;
+    }
+}
