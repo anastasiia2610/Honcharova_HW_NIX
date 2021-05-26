@@ -12,5 +12,14 @@ a{text-decoration: none}
 
 @import "../components/category/category";
 
+@import "../components/featured/featured";
+
+@import "../components/contact-form/contact-form";
+
+@import "../components/order-form/order-form";
+
+@import "../components/cart/cart-table.scss";
+
 @import "../components/footer/footer";
 
+@import "media";

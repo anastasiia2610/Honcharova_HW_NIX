@@ -5,17 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zay</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body> 
     <header class="header"> 
       <div class="header__inner">
-        <h1> <a class="header__logo" href="index.html">Zay</a></h1><a class="header__link" href="index.html">Home</a><a class="header__link" href="">About</a><a class="header__link" href="">Shop</a><a class="header__link" href="">Contact</a>
+        <h1> <a class="header__logo" href="index.html">Zay</a></h1><a class="header__link" href="index.html">Home</a><a class="header__link" href="categories.html">Categories</a><a class="header__link" href="products.html">Products</a><a class="header__link" href="contact.html">Contact</a><a class="header__link" href="order.html"><i class="fa fa-list-alt"></i></a><a class="header__link" href="cart.html"><i class="fa fa-shopping-basket"></i></a>
       </div>
     </header>
     <section class="banner">
       <div class="banner__inner">
-        <div class="banner-text__wrapper">
+        <div class="banner_text__wrapper">
           <h3 class="banner__title">Repr in voluptate</h3>
           <p class="banner__text">
              We bring you 100% free CSS templates
@@ -25,7 +27,7 @@
             Thank you.
           </p>
         </div>
-        <div class="banner-image__wrapper"><img src="" alt=""></div>
+        <div class="banner_image__wrapper"><img class="banner_image" src="./img/banner_img_01.jpg" alt=""></div>
       </div>
     </section>
     <section class="category"> 
@@ -41,41 +43,93 @@
         </div>
         <div class="category_row">
           <div class="category_row__wrapper">
-            <div class="category_row__item"><img src="" alt="">
+            <div class="category_row__item"><img class="category_row__item__image" src="./img/category_img_01.jpg" alt="">
               <h5 class="category_row__item__title">
-                 Watches</h5><a class="category_row__item__button" href="#">Go Shop </a>
+                 Watches</h5><a class="category_row__item__button" href="watches.html">Go To Category </a>
             </div>
-            <div class="category_row__item"><img src="" alt="">
+            <div class="category_row__item"><img class="category_row__item__image" src="./img/category_img_02.jpg" alt="">
               <h5 class="category_row__item__title">
-                 Shoes</h5><a class="category_row__item__button" href="#">Go Shop</a>
+                 Shoes</h5><a class="category_row__item__button" href="shoes.html">Go To Category</a>
             </div>
-            <div class="category_row__item"><img src="" alt="">
+            <div class="category_row__item"><img class="category_row__item__image" src="./img/category_img_03.jpg" alt="">
               <h5 class="category_row__item__title">
-                 Accessories</h5><a class="category_row__item__button" href="#">Go Shop</a>
+                 Accessories</h5><a class="category_row__item__button" href="accessories.html">Go To Category</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="featured"> 
+      <div class="featured__inner">
+        <div class="featured__title__wrapper">
+          <h3 class="featured__title">
+             Featured Product</h3>
+          <p class="featured__subtitle">
+            Reprehenderit in voluptate velit
+            esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat 
+            cupidatat non proident.
+          </p>
+        </div>
+        <div class="featured_row">
+          <div class="featured_row__wrapper">
+            <div class="featured_row__item"><img class="featured_row__item__image" src="./img/feature_prod_01.jpg" alt="">
+              <h5 class="featured_row__item__title">
+                 Gym Weight</h5>
+              <p class="featured_row__item__price">$240.00</p>
+            </div>
+            <div class="featured_row__item"><img class="featured_row__item__image" src="./img/feature_prod_02.jpg" alt="">
+              <h5 class="featured_row__item__title">
+                 Cloud Nike Shoes</h5>
+              <p class="featured_row__item__price">$480.00</p>
+            </div>
+            <div class="featured_row__item"><img class="featured_row__item__image" src="./img/feature_prod_03.jpg" alt="">
+              <h5 class="featured_row__item__title">
+                 Summer Addides Shoes</h5>
+              <p class="featured_row__item__price">$360.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="featured__button__wrapper"><a class="featured__button" href="products.html">All Products</a></div>
+      </div>
+    </section>
     <footer class="footer"> 
       <div class="footer__inner">
         <div class="footer_col">
-          <h4 class="footer_col__title">Zay Shop</h4><a href="#">
-             123 Consectetur at ligula 10660</a><a href="#">
-             010-020-0340</a><a href="#">
-             info@company.com</a>
+          <h3 class="footer_shop__title">Zay Shop</h3>
+          <ul class="footer_col__list">
+            <li> <a class="footer_col__link" href="#"> <i class="fa fa-globe footer_col__link__icon"></i>123 Consectetur at ligula 10660</a></li>
+            <li><a class="footer_col__link" href="#"> <i class="fa fa-phone footer_col__link__icon">                 </i>010-020-0340</a></li>
+            <li><a class="footer_col__link" href="#"> <i class="fa fa-envelope footer_col__link__icon"></i>info@company.com</a></li>
+          </ul>
         </div>
         <div class="footer_col">
-          <h4 class="footer_col__title">Pages</h4><a href="#">
-             Luxury</a><a href="#">
-             Sport Wear</a><a href="#">
-              info@company.com</a>
+          <h4 class="footer_col__title">Products</h4>
+          <ul class="footer_col__list">
+            <li><a class="footer_col__link" href="#">
+                 Luxury</a></li>
+            <li><a class="footer_col__link" href="#">
+                 Sport Wear</a></li>
+            <li><a class="footer_col__link" href="#">
+                 Shoes </a></li>
+            <li><a class="footer_col__link" href="#">
+                 Popular Dress</a></li>
+            <li><a class="footer_col__link" href="#">
+                 Gym Accessories</a></li>
+          </ul>
         </div>
         <div class="footer_col">
-          <h4 class="footer_col__title">Further Info</h4><a href="#">
-             123 Consectetur at ligula 10660</a><a href="#">
-             010-020-0340</a><a href="#">
-              info@company.com</a>
+          <h4 class="footer_col__title">Further Info</h4>
+          <ul class="footer_col__list">
+            <li><a class="footer_col__link" href="index.html">
+                 Home</a></li>
+            <li><a class="footer_col__link" href="categories.html">
+                 Categories</a></li>
+            <li><a class="footer_col__link" href="products.html">
+                 Products</a></li>
+            <li><a class="footer_col__link" href="contact.html">
+                 Contact</a></li>
+          </ul>
         </div>
       </div>
     </footer>

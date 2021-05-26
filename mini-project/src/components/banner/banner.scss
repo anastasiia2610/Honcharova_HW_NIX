@@ -1,14 +1,19 @@
+@import "src/scss/media";
+
 .banner {
     background-color: #efefef;
 
     &__inner{
         display: flex;
         justify-content: space-around;
-        padding: 10px 40px;
+        padding: 0px 40px;
     }
 
-    &-text__wrapper {
+    &_text__wrapper {
         width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
     }
 
     &__title{
@@ -22,8 +27,12 @@
         font-weight: 300;
         line-height: 1.5;
     }
+    &_image{
+        width: 100%;
 
-    &-image__wrapper {
-        width: 50%;
+        &__wrapper {
+            width: 50%;
+        }
     }
+    
 }

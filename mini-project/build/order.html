@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body> 
+    <header class="header"> 
+      <div class="header__inner">
+        <h1> <a class="header__logo" href="index.html">Zay</a></h1><a class="header__link" href="index.html">Home</a><a class="header__link" href="categories.html">Categories</a><a class="header__link" href="products.html">Products</a><a class="header__link" href="contact.html">Contact</a><a class="header__link" href="order.html"><i class="fa fa-list-alt"></i></a><a class="header__link" href="cart.html"><i class="fa fa-shopping-basket"></i></a>
+      </div>
+    </header>
+    <section class="order-form-wrapper">
+      <div class="order-form-wrapper__container">
+        <div class="order-form-wrapper__text-box">
+          <h3 class="order-form-wrapper__title">
+             Order Information</h3>
+          <p class="order-form-wrapper__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione!
+            Laboriosam est, assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum
+            minus voluptate? Dolore, esse natus!
+          </p>
+          <form id="contact__form" action="" method="post" autocomplete="off">
+            <label for="POST-name"></label>
+            <div class="order-form-wrapper__input-box">
+              <div class="order-form-wrapper__input-item">
+                <input id="POST-name" type="text" name="first-name" placeholder="First Name" data-input-validation="required" data-input-validation-message="User name is a mandatory field">
+              </div>
+              <div class="order-form-wrapper__input-item">
+                <input id="POST-name" type="text" name="last-name" placeholder="Last Name" data-input-validation="required" data-input-validation-message="User name is a mandatory field">
+              </div>
+              <div class="order-form-wrapper__input-item">
+                <input id="POST-name" type="text" name="address" placeholder="Your Address" data-input-validation="required" data-input-validation-message="User name is a mandatory field">
+              </div>
+              <div class="order-form-wrapper__input-item">
+                <input id="POST-email" type="text" name="email" placeholder="nick@gmail.com" data-input-validation="email" data-input-validation-message="Email should contain a '@' charter">
+              </div>
+              <div class="order-form-wrapper__input-item">
+                <input id="POST-phone" type="text" name="phone" placeholder="+38(0_ _)_ _ _ _ _ _ _" data-input-validation="phone">
+              </div>
+              <div class="order-form-wrapper__input-item">
+                <input id="POST-subject" type="text" name="subject" placeholder="" data-input-validation="required">
+              </div>
+            </div>
+            <div class="order-form-wrapper__input-box">
+              <div class="order-form-wrapper__input-item">
+                <textarea id="POST-message" name="message" placeholder="Comment" data-input-validation="required"></textarea>
+              </div>
+            </div>
+            <div class="order-form-wrapper__input-submit">
+              <button class="order-form-wrapper__btn" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer"> 
+      <div class="footer__inner">
+        <div class="footer_col">
+          <h3 class="footer_shop__title">Zay Shop</h3>
+          <ul class="footer_col__list">
+            <li> <a class="footer_col__link" href="#"> <i class="fa fa-globe footer_col__link__icon"></i>123 Consectetur at ligula 10660</a></li>
+            <li><a class="footer_col__link" href="#"> <i class="fa fa-phone footer_col__link__icon">                 </i>010-020-0340</a></li>
+            <li><a class="footer_col__link" href="#"> <i class="fa fa-envelope footer_col__link__icon"></i>info@company.com</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4 class="footer_col__title">Products</h4>
+          <ul class="footer_col__list">
+            <li><a class="footer_col__link" href="#">
+                 Luxury</a></li>
+            <li><a class="footer_col__link" href="#">
+                 Sport Wear</a></li>
+            <li><a class="footer_col__link" href="#">
+                 Shoes </a></li>
+            <li><a class="footer_col__link" href="#">
+                 Popular Dress</a></li>
+            <li><a class="footer_col__link" href="#">
+                 Gym Accessories</a></li>
+          </ul>
+        </div>
+        <div class="footer_col">
+          <h4 class="footer_col__title">Further Info</h4>
+          <ul class="footer_col__list">
+            <li><a class="footer_col__link" href="index.html">
+                 Home</a></li>
+            <li><a class="footer_col__link" href="categories.html">
+                 Categories</a></li>
+            <li><a class="footer_col__link" href="products.html">
+                 Products</a></li>
+            <li><a class="footer_col__link" href="contact.html">
+                 Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+section.order-form-wrapper
+    .order-form-wrapper__container
+        .order-form-wrapper__text-box
+            h3.order-form-wrapper__title 
+                | Order Information
+            p.order-form-wrapper__text
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, ratione!
+                | Laboriosam est, assumenda. Perferendis, quo alias quaerat aliquid. Corporis ipsum
+                | minus voluptate? Dolore, esse natus!
+            form#contact__form(action='' method='post' autocomplete='off')
+                label(for='POST-name')
+                .order-form-wrapper__input-box
+                    .order-form-wrapper__input-item
+                        input#POST-name(type='text'  name='first-name' placeholder='First Name' data-input-validation="required" data-input-validation-message="User name is a mandatory field")
+                    .order-form-wrapper__input-item
+                        input#POST-name(type='text'  name='last-name' placeholder='Last Name' data-input-validation="required" data-input-validation-message="User name is a mandatory field")
+                    .order-form-wrapper__input-item
+                        input#POST-name(type='text'  name='address' placeholder='Your Address' data-input-validation="required" data-input-validation-message="User name is a mandatory field")
+                    .order-form-wrapper__input-item
+                        input#POST-email(type='text' name='email' placeholder='nick@gmail.com' data-input-validation="email" data-input-validation-message="Email should contain a '@' charter")
+                    .order-form-wrapper__input-item
+                        input#POST-phone(type='text' name='phone' placeholder='+38(0_ _)_ _ _ _ _ _ _' data-input-validation="phone")
+                    .order-form-wrapper__input-item
+                        input#POST-subject(type='text' name='subject' placeholder='' data-input-validation="required")
+                .order-form-wrapper__input-box
+                    .order-form-wrapper__input-item
+                        textarea#POST-message(name='message' placeholder='Comment' data-input-validation="required")
+                .order-form-wrapper__input-submit
+                    button.order-form-wrapper__btn(type='submit') Submit

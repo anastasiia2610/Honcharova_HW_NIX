@@ -1,5 +1,54 @@
-.footer{
+@import "src/scss/media";
+
+.footer {
     background-color: #212934;
 
-    
+    &__inner {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 40px 20px;
+    }
+
+    &_col {
+        padding: 30px 10px;
+
+        &__title {
+            padding: 20px 0;
+            font-size: 30px;
+            font-weight: 300;
+            color: #fff;
+        }
+
+        &__link{
+            display: block;
+            padding: 10px;
+            color: #fff;
+            transition: all 0.3s;
+            font-size: 18px;
+            font-weight: 300;
+
+            &__icon {
+                margin: 5px 10px;
+            }
+
+            &:hover{
+                background-color: #1f875a;
+            }
+        }
+
+        &__list{
+            list-style: none;
+        }
+
+        
+    }
+
+
+    &_shop__title {
+        padding: 20px 0;
+        font-size: 30px;
+        font-weight: 500;
+        color: #59ab6e;
+    }
+
 }

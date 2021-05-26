@@ -1,3 +1,5 @@
+@import "src/scss/media";
+
 .header{
     background-color: #fff;
 
@@ -24,9 +26,11 @@
         text-decoration: none;
         transition: all .3s;
         font-weight: 300;
+        padding: 15px 20px;
 
         &:hover{
-            color: #69bb7e;
+            color: #fafafa;
+            background-color: #69bb7e;
         }
     }
 }
