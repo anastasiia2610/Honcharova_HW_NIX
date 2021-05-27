@@ -9,11 +9,16 @@
         align-content: center;
         justify-content: space-evenly;
         padding: 40px 20px;
+        @include breakpoint(tablet-600) {
+            flex-wrap: wrap-reverse;
+        }
     }
 
     &__text-box {
         width: 50%;
-
+        @include breakpoint(tablet-600) {
+            width: 100%;
+        }
     }
 
     &__title {
@@ -43,6 +48,7 @@
         color: #051922;
         margin: 0 0 30px 0;
         display: flex;
+        
 
 
 
@@ -104,19 +110,20 @@
         background-color: #FBFBFB;
         padding: 45px 30px;
         border-radius: 5px;
+        @include breakpoint(tablet-600) {
+            width: 80%;
+        }
     }
 
     &__item {
         margin-bottom: 15px;
-
-
     }
-
-    
-
         &__fined-container{
             display: flex;
         justify-content: space-around;
+        @include breakpoint(tablet-600) {
+            flex-wrap: wrap;
+        }
         }
 
         &__title-contact {
@@ -130,7 +137,6 @@
             justify-content: center;
             padding: 20px;
             align-items: center;
-            height: 200px;
         }
 
 

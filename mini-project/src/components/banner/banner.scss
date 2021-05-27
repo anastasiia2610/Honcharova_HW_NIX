@@ -3,7 +3,7 @@
 .banner {
     background-color: #efefef;
 
-    &__inner{
+    &__inner {
         display: flex;
         justify-content: space-around;
         padding: 0px 40px;
@@ -16,23 +16,33 @@
         align-content: center;
     }
 
-    &__title{
+    &__title {
         padding: 20px 0;
         font-size: 48px;
         font-weight: 200;
+
+        @include breakpoint(tablet-600) {
+            font-size: 29px;
+        }
     }
 
-    &__text{
+    &__text {
         font-size: 18px;
         font-weight: 300;
         line-height: 1.5;
+        padding: 10px 0;
+
+        @include breakpoint(tablet-600) {
+            display: none;
+        }
     }
-    &_image{
+
+    &_image {
         width: 100%;
 
         &__wrapper {
             width: 50%;
         }
     }
-    
+
 }

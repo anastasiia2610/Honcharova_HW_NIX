@@ -1,36 +1,71 @@
 @import "src/scss/media";
 
-.header{
+.header {
+
+
     background-color: #fff;
 
-    &__inner{
+    &__inner {
         width: 80%;
         margin: 0 auto;
         padding: 10px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+
+        @include breakpoint(tablet-600) {
+            display: none;
+        }
+
+        &_responsive {
+            display: none;
+
+            @include breakpoint(tablet-600) {
+                display: flex;
+                width: 80%;
+                margin: 0 auto;
+                padding: 10px;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+        }
     }
 
-    &__logo{
+    &__logo {
         text-transform: uppercase;
         font-weight: 500;
         font-size: 48px;
         color: #59ab6e;
         text-decoration: none;
+        &_responsive{
+            text-transform: uppercase;
+        font-weight: 500;
+        color: #59ab6e;
+        text-decoration: none;
+            font-size: 30px;
+
+        }
     }
 
-    &__link{
+    &__link {
         font-size: 18px;
         color: #212934;
         text-decoration: none;
         transition: all .3s;
         font-weight: 300;
-        padding: 15px 20px;
+        padding: 15px 15px;
 
-        &:hover{
+        &:active{
             color: #fafafa;
             background-color: #69bb7e;
+        }
+        &:hover {
+            color: #fafafa;
+            background-color: #69bb7e;
+        }
+
+        &__wrapper{
+            display: flex;
         }
     }
 }

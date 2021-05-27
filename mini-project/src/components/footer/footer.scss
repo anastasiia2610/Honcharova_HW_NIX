@@ -11,6 +11,17 @@
 
     &_col {
         padding: 30px 10px;
+        &_products{
+            @include breakpoint(lg-max) {
+                display: none;
+            }
+        }
+
+        &_info {
+            @include breakpoint(sm-max) {
+                display: none;
+            }
+        }
 
         &__title {
             padding: 20px 0;

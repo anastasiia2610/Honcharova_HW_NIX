@@ -17,6 +17,10 @@
         padding: 20px 0;
         font-size: 48px;
         font-weight: 200;
+
+        @include breakpoint(tablet-600) {
+            font-size: 32px;
+        }
     }
 
     &__subtitle {
@@ -24,6 +28,10 @@
         line-height: 1.5;
         font-size: 18px;
         font-weight: 300;
+
+        @include breakpoint(tablet-600) {
+            display: none;
+        }
     }
 
     &_row {
@@ -34,12 +42,19 @@
             display: flex;
             align-content: center;
             justify-content: space-evenly;
+            @include breakpoint(tablet-600) {
+                flex-wrap: wrap;
+            }
         }
 
         &__item {
             width: 25%;
             text-align: center;
-            
+            @include breakpoint(tablet-600) {
+            width: 70%; 
+            margin: 10px 0;
+           }
+
             &__image {
                 width: 100%;
                 border-radius: 50%;
@@ -52,7 +67,7 @@
                 font-weight: 500;
                 font-size: 20px;
             }
-        
+
             &__button {
                 display: inline-block;
                 background-color: #59ab6e;
@@ -62,20 +77,20 @@
                 margin: 15px 0;
                 color: #fff;
                 transition: all .3s;
-        
-                &:hover{
-                background-color: #fff;
-                border-radius: 3px;
-                border: 1px solid #56ae6c;
-                padding: 10px 15px;
-                color: #59ab6e;
+
+                &:hover {
+                    background-color: #fff;
+                    border-radius: 3px;
+                    border: 1px solid #56ae6c;
+                    padding: 10px 15px;
+                    color: #59ab6e;
                 }
-                
+
             }
         }
-    }    
-    
-    &_watches_row{
+    }
+
+    &_watches_row {
         margin: 50px 0;
 
         &__wrapper {
@@ -88,7 +103,7 @@
         &__item {
             width: 25%;
             text-align: center;
-            
+
             &__image {
                 width: 100%;
                 border-radius: 50%;
@@ -104,8 +119,8 @@
         }
 
     }
-        
-        &_accessories_row{
+
+    &_accessories_row {
         margin: 50px 0;
 
         &__wrapper {
@@ -118,7 +133,7 @@
         &__item {
             width: 25%;
             text-align: center;
-            
+
             &__image {
                 width: 100%;
                 border-radius: 50%;
@@ -134,9 +149,9 @@
         }
 
     }
-    
 
-    &_shoes_row{
+
+    &_shoes_row {
         margin: 50px 0;
 
         &__wrapper {
@@ -149,7 +164,7 @@
         &__item {
             width: 25%;
             text-align: center;
-            
+
             &__image {
                 width: 100%;
                 border-radius: 50%;
