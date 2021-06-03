@@ -244,6 +244,148 @@
 
 //Task 21
 
-function getNumberDigitSum(num) {
-    
-}
+// function getNumberDigitSum(num) {
+//     const str = num + '';
+
+//     const sum = str
+//         .split('')
+//         .reduce((result, item) => +result + +item, 0);
+
+//     return `Количество цифр: ${str.length}, сумма: ${sum}`;
+// }
+
+//Task 22
+
+// function converter() {
+//     let СENTIMETR_TO_INCHES = 2.54;
+
+//     const inchesOrCentimeters = confirm('Would you like to convert cm to in?');
+
+//     if(inchesOrCentimeters){
+//         const lengthInCentimeters = Math.abs(+prompt('Enter length in centmeters:'));
+//         let resultInInches = lengthInCentimeters / СENTIMETR_TO_INCHES;
+//         return alert(`${lengthInCentimeters} cm = ${resultInInches} in`)
+//     } else {
+//         const lengthInInches = Math.abs(+prompt('Enter length in inches:'));
+//         let  resultInCm =  lengthInInches * СENTIMETR_TO_INCHES;
+//         return alert(`${lengthInInches} in = ${resultInCm} cm`)
+//     }   
+// }
+// converter();
+
+//Task 23
+
+//
+
+//Task 24
+
+// function getNumberDigitSum() {
+
+//     let num = +prompt('Enter three-digit number:');
+
+//     const numberToString = num + '';
+
+//     if (num % 2 === 0) {
+//         alert('Number is odd');
+
+//         let sumOfDigits = 0;
+
+//         for (let i = 0; i < numberToString.length; i++) {
+//             let digit = +numberToString[i];
+
+//             sumOfDigits += digit;
+//         }
+//     } else {
+//         alert('Number is even.');
+
+//         let digitsMultiply = 1;
+
+//         for (let i = 0; i < numberToString.length; i++) {
+//             let digit = +numberToString[i];
+
+//             digitsMultiply *= digit;
+//         }
+//     }
+// }
+// getNumberDigitSum();
+
+//Task 25
+
+// const firstSide = +prompt('Enter first triangle side:');
+// const secondSide = +prompt('Enter second triangle side:');
+// const thirdSide = +prompt('Enter third triangle side:');
+
+
+// function isTriangle(a, b, c){
+//     if(a + b > c && a + c > b && b + c > a) {
+//         alert('It is triangle!');
+//     } else {
+//         alert('It is not triangle :(');
+//     }
+// }
+
+// isTriangle(firstSide, secondSide, thirdSide);
+
+//Task 26
+
+// const firstValue = +prompt('Enter first point value:');
+// const secondValue = +prompt('Enter second point value:');
+
+// function isPointBelongToCircle (x, y){
+//     const circleRadius = 10;
+//     x = firstValue;
+//     y = secondValue;
+//     let z = Math.sqrt(x * x + y * y);
+
+//     if(z > circleRadius) {
+//         alert('The point out of circle');
+//     } else {
+//         alert('The point is belong to circle');
+//     }
+// }
+
+// isPointBelongToCircle(firstValue, secondValue);
+
+//Task 27
+
+// let user = {};
+// user.name = 'John';
+// user.surname = 'Smith';
+// user.name = 'Pete';
+// delete user.name;
+
+//Task 28
+
+// const user = {
+//     name: "John"
+// };
+// user.name = "Pete"; //Будет работать
+
+//Task 29
+
+// let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+// };
+
+// function calcSalaries(obj) {
+//     let result = 0;
+//     for(let key in obj){
+//         result += obj[key];
+//     } 
+//     return result;
+// }
+// console.log(calcSalaries(salaries));
+
+//Task 30
+
+// let i = 0;
+
+// while(i != 10) {
+//     i += 0.2;
+//     console.log(i);
+// }
+
+//этот цикл будет бесконечным, потому что его значение всегда будет true, его можно прервать директивой break.
+
