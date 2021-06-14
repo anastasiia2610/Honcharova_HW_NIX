@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="menu_button">
+        <a href="/index.html" class="menu_button_link">Back to menu</a>
+    </div>
+    <section class="randomizer">
+        <h2 class="title">Randomizer</h2>
+        <div>
+            <label class="label"> Min number:
+                <input id="min" class="input" type="text">
+            </label>
+            <label class="label"> Max number:
+                <input id="max" class="input" type="text">
+            </label>
+            <label class="label"> Count of random numbers:
+                <input id="count" class="input" type="text">
+            </label>
+            <button class="btn">Generate</button>
+        </div>
+        <div class="result">Result:
+            <div id="output"></div>
+        </div>
+    </section>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

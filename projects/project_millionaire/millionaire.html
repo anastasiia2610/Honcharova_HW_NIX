@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millionaire</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="menu_button">
+        <a href="/index.html" class="menu_button_link">Back to menu</a>
+    </div>
+    <section class="question_wrapper">
+        <div class="start_button">Начать игру!</div>
+        <div class="question_main disabled">
+            <div class="container">
+                <div class="question_holder ">
+                    <div class="game-stage">
+                        <ul class="stage-block">
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                            <li><span class="stage-reward"></span><span class="dot"></span></li>
+                        </ul>
+                        <div class="stripe"></div>
+                    </div>
+                    <h2 class="question_text"></h2>
+
+                    <ul class="answers-block">
+                        <li>
+                            <input id="question1" class="question_choose" type="radio" name="answer">
+                            <label for="question1" class="question_item"></label>
+                        </li>
+                        <li>
+                            <input id="question2" class="question_choose" type="radio" name="answer">
+                            <label for="question2" class="question_item"></label>
+                        </li>
+                        <li>
+                            <input id="question3" class="question_choose" type="radio" name="answer">
+                            <label for="question3" class="question_item"></label>
+                        </li>
+                        <li>
+                            <input id="question4" class="question_choose" type="radio" name="answer">
+                            <label for="question4" class="question_item"></label>
+                        </li>
+                    </ul>
+                    <button class="answer_button">Ответить</button>
+                    <div>
+                        <button class="call-friend">
+                            <i class="fa fa-phone">
+                            </i> Звонок другу</button>
+                        <button class="fifty-percent">
+                            <i class="fa fa-american-sign-language-interpreting">
+                            </i> 50 на 50</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="phone_wrapper disabled_phone">
+        <div class="phone_holder">
+            <div class="phone_content">
+                <div class="phone_message">
+                    <div class="phone_text_wrapper">
+                        <p class="phone_text"></p>
+                    </div>
+                    <img src="https://pbs.twimg.com/profile_images/1339342468270186496/S430KLZu_400x400.jpg" alt="">
+                </div>
+                <div class="phone_message">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shrek-forever-after-1587549453.jpg?crop=0.676xw:0.901xh;0.0969xw,0&resize=480:*"
+                        alt="">
+                    <div class="phone_text_wrapper">
+                        <p class="phone_text"></p>
+                    </div>
+                </div>
+                <div class="phone_message">
+                    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shrek-forever-after-1587549453.jpg?crop=0.676xw:0.901xh;0.0969xw,0&resize=480:*"
+                        alt="">
+                    <div class="phone_text_wrapper">
+                        <p class="phone_text"></p>
+                    </div>
+                </div>
+                <div class="phone_message">
+                    <div class="phone_text_wrapper">
+                        <p class="phone_text"></p>
+                    </div>
+                    <img src="https://pbs.twimg.com/profile_images/1339342468270186496/S430KLZu_400x400.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal disabled">
+        <div class="modal_holder">
+            <h2 class="modal_title">Вы победили!</h2>
+            <p class="modal_text">Ваш выигрыш:
+                <span class="reward_text">1000000</span>
+            </p>
+            <p class="restart_text">Сыграем ещё?</p>
+            <div class="modal_button_wrapper">
+                <button class="modal_button modal_button_yes">Да</button>
+                <button class="modal_button modal_button_no">Нет</button>
+            </div>
+        </div>
+    </div>
+
+    <script async src="js/external-catalog.js"></script>
+    <script async src="js/script.js"></script>
+
+</body>
+
+</html>

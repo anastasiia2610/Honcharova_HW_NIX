@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.randomizer {
+    width: 280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 17px;
+    background-color:#bacff7;
+}
+
+.label{
+    font-size: 20px;
+}
+
+.input {
+    width: 220px;
+    height: 47px;
+    font-size: 30px; 
+    padding: 5px 10px;
+    margin-bottom: 10px;  
+}
+
+.btn {
+    background-color: #2250a1;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    padding: 10px 10px 0 10px;
+    margin: 15px 0;
+    border-radius: 34px;
+    display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+}
+
+.result {
+    font-size: 20px;
+}
+
+.output-item{
+    margin: 5px;
+    padding: 0 10px;
+    background: #f3f3f3;
+}

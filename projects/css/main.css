@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_section{
+    text-align: center;
+}
+
+.menu_button_link {
+    margin: 10px 0 0 10px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-size: 18px;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #a582ff;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.menu_button_link:hover {
+    color: #fff;
+    background-color: #632deb;
+}
+
+.main_title {
+    margin-top: 180px;
+}
+
+.projects_wrapper {
+    display: flex;
+    width: 750px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.project_item{
+    padding: 40px;
+    min-width: 145px;
+    background-color: #5b71ba;
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.project_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.project_item:hover {
+    background-color: #765bba;
+    }
+
+.project_link i{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+}
