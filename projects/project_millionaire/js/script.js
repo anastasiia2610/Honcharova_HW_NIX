@@ -126,7 +126,7 @@ function callFriendHelp() {
     }, 1300)
     setTimeout(function () {
         let friendAnswer = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
-        phoneText[2].innerHTML = 'Я думаю это ' + questions[stage].answer[friendAnswer];
+        phoneText[2].innerHTML = 'Я думаю ' + questions[stage].answer[friendAnswer];
     }, 2100)
     setTimeout(function () {
         phoneText[3].innerHTML = 'От души, брат';

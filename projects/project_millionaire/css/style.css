@@ -21,7 +21,6 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .container {
@@ -141,6 +140,10 @@ input[type="radio"]:checked+label {
 }
 
 .start_button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 300px;
     font-size: 26px;
     text-align: center;
@@ -275,7 +278,7 @@ input[type="radio"]:checked+label {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
-    background-color: #e6f7e4;
+    background-color: #f8deff;
 
 }
 
@@ -292,13 +295,13 @@ input[type="radio"]:checked+label {
     margin-bottom: 10px;
     border-radius: 20px;
     padding: 7px;
-    background-color: #7096ba;
+    background-color: #2e3e80;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 13px;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     transition: all 3s;
 
 }
